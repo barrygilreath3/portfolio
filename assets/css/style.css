@@ -1,5 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif, Arial;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,11 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 48px;
-    font-weight:700;
+    font-weight:400;
 }
 
 h2 {
     font-size: 22px;
+    font-weight: 700;
 }
 
 /* Header */
@@ -113,35 +114,35 @@ main {
         flex-wrap: wrap;
     }
 
-    article {
+    .projectPic {
         min-width:46%;
         margin: 6px;
-        min-height: 150px;
+        min-height: 250px;
         display: flex;
         align-items: flex-end;
         background-position: center;
     }
 
-        #twitter {
-            background-image: url(../images/twitter.jpg);
+        #futurepetplace {
+            background-image: url(../images/futurepetplace.jpg);
             width: 100%;
             min-height:300px;
         }
 
-        #neatflix {
-            background-image: url(../images/netflix.jpg);
+        #passwordGenerator {
+            background-image: url(../images/lock.jpg);
         }
 
-        #rocketboy {
-            background-image: url(../images/rocket.jpg);
+        #workday {
+            background-image: url(../images/dayplanner.jpg);
         }
 
-        #fastpass {
-            background-image: url(../images/disney.jpg);
+        #quizapp {
+            background-image: url(../images/quiz.jpg);
         }
 
-        #financemanager {
-            background-image: url(../images/money.jpg);
+        #weather {
+            background-image: url(../images/weather.jpg);
         }
 
     /* Project Title Cards */
@@ -150,22 +151,29 @@ main {
         flex-direction: column;
         justify-content: flex-end;
         padding: 10px 0px;
-        width: 200px;
-        height: 75px;
+        width: 250px;
+        height: 65px;
         color: white;
-        background-color: darkslategrey;
+        background-color: rgb(33, 37, 37);
+        border: solid 2px grey;
         margin: 0px 0px 15px 0px;
-        cursor:default;
     }
 
         .cardtitle h2,p {
-            margin: 0px 0px 0px 10px;
+            margin: 0px 0px 5px 10px;
+        }
+
+        .cardtitle p {
+            font-size: smaller;
         }
 
         .cardtitle h2 {
             color: white;
         }
 
+        a {
+            text-decoration: none;
+        }
 
     /* Contact - Row 3 */
     #contactme {
@@ -246,11 +254,11 @@ footer {
         }
         
     
-    #twitter {
+    /* #twitter {
         background-image: url(../images/twitter.jpg);
         width: 100%;
         min-height:300px;
-    }
+    } */
 
     #contactme {
         flex-direction: column;
