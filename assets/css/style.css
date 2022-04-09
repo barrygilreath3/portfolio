@@ -212,10 +212,19 @@ footer {
 
     header {
         width: auto;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
     
     main {
-        width: auto;
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+        width: 100%;
     }
     
     /* About Me, Portfolio, Contact */
@@ -228,7 +237,7 @@ footer {
     /* Left Column */
     .title {
         justify-content: center;
-        border-right: none;;
+        border-right: none;
     }
 
     .title h1 {
@@ -239,6 +248,7 @@ footer {
     .rightbox {
         display: flex;
         padding:10px;
+        width: 90%;
     }
         /* About Me */
         #jbg {
