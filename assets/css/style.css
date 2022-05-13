@@ -123,10 +123,21 @@ main {
         background-position: center;
     }
 
-        #futurepetplace {
-            background-image: url(../images/futurepetplace.jpg);
+        #community-bulletin-board {
+            background-image: url(../images/community.jpg);
             width: 100%;
             min-height:300px;
+        }
+
+        #featurecard {
+            width: 46%;
+            height:fit-content;
+            /* width: fit-content; */
+            overflow-wrap: break-word;
+        }
+
+        #futurepetplace {
+            background-image: url(../images/futurepetplace.jpg);
         }
 
         #passwordGenerator {
@@ -144,6 +155,27 @@ main {
         #weather {
             background-image: url(../images/weather.jpg);
         }
+
+        #employee-tracker {
+            background-image: url(../images/server.jpg);
+        }
+
+        #ecommerce {
+            background-image: url(../images/ecommerce.jpg);
+        }
+
+        #notetaker {
+            background-image: url(../images/notetaker.jpg);
+        }
+
+        #team-generator {
+            background-image: url(../images/teamgenerator.jpg);
+        }
+
+        #readme {
+            background-image: url(../images/readme.jpg);
+        }
+
 
     /* Project Title Cards */
     .cardtitle {
@@ -208,7 +240,7 @@ footer {
     justify-content: center;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
 
     header {
         width: auto;
@@ -243,6 +275,10 @@ footer {
     .title h1 {
         font-size:28px;
     }
+
+    #featurecard {
+        width: 60%;
+    }
     
     /* Right Column */
     .rightbox {
@@ -262,13 +298,6 @@ footer {
             flex-direction: column;
             flex-wrap: wrap;
         }
-        
-    
-    /* #twitter {
-        background-image: url(../images/twitter.jpg);
-        width: 100%;
-        min-height:300px;
-    } */
 
     #contactme {
         flex-direction: column;
