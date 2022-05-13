@@ -17,6 +17,23 @@ h2 {
     font-weight: 700;
 }
 
+button {
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px grey solid;
+    background-color: rgb(51, 155, 176);
+    color: white;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 100;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.1,1.1)
+}
+
 /* Header */
 header {
     width:100%;
@@ -48,7 +65,6 @@ header {
 
         nav ul {
             display: flex;
-
         }
 
         nav li {
@@ -60,6 +76,10 @@ header {
         li a {
             color: white;
             text-decoration:none;
+        }
+
+        li a:hover {
+            transform:scale(1.1,1.1)
         }
 
 /* Hero */
@@ -101,10 +121,19 @@ main {
     justify-content: space-between;
     padding:10px;
 }
+
+#aboutmebox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
     /* About Me */
     #jbg {
         border-radius: 50%;
         margin:10px;
+        padding: 50px;
     }
 
     /* Portfolio Projects */
@@ -221,12 +250,15 @@ main {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
     }
 
     #contactlinks a {
         display: flex;
         color: darkslategrey;
+    }
+
+    #contactlinks a:hover {
+        transform:scale(1.1,1.1)
     }
 
 /* Footer */
