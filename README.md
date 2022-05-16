@@ -36,13 +36,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-## Work-in-Progress
-First Commit: 3/22/2022
-Second Commit: 4/8/2022
-
-This portfolio will be updated as I add my own projects.  The first commit of this project (3/22/2022) included sample projects which will be replaced with projects I actually built.
-
-The second commit includes updated links to projects I have contributed to or built myself.
 
 ## URL's
 ### Github
@@ -50,3 +43,6 @@ https://github.com/barrygilreath3/portfolio
 
 ### Website
 https://barrygilreath3.github.io/portfolio/
+
+## Contact
+barrygilreath3@gmail.com

@@ -18,20 +18,22 @@ h2 {
 }
 
 button {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     border: 1px grey solid;
     background-color: rgb(51, 155, 176);
     color: white;
     font-family: 'Roboto', sans-serif, Arial;
     font-weight: 100;
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
+    margin:20px;
 }
 
 button:hover{
     cursor: pointer;
-    transform:scale(1.1,1.1)
+    transform:scale(1.1,1.1);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 
 /* Header */
@@ -120,6 +122,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding:10px;
+    
 }
 
 #aboutmebox {
@@ -151,6 +154,11 @@ main {
         align-items: flex-end;
         background-position: center;
     }
+
+        .projectPic:hover {
+            transform:scale(1.02,1.02);
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+        }
 
         #community-bulletin-board {
             background-image: url(../images/community.jpg);
@@ -322,6 +330,7 @@ footer {
         #jbg {
             border-radius: 50%;
             margin:10px;
+            padding: 10px;
         }
     
         /* Portfolio Projects */
@@ -329,6 +338,14 @@ footer {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+        }
+
+        #aboutmebox {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 20px;
+            width: 90%;
         }
 
     #contactme {
